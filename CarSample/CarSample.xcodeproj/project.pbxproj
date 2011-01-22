@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54C346C12EB4633001C5500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54C346B12EB4633001C5500 /* Foundation.framework */; };
+		B54C346F12EB4633001C5500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C346E12EB4633001C5500 /* main.m */; };
+		B5CBD80712EB474700EE938F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD80612EB474700EE938F /* Car.m */; };
+		B5CBD82B12EB4A2300EE938F /* ViperEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD82A12EB4A2300EE938F /* ViperEngine.m */; };
+		B5CBD83512EB4AA600EE938F /* LawnmowerEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD83412EB4AA600EE938F /* LawnmowerEngine.m */; };
+		B5CBD87212EB4ED600EE938F /* EngineFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CBD87112EB4ED600EE938F /* EngineFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B54C346512EB4633001C5500 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B54C346712EB4633001C5500 /* CarSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarSample; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C346B12EB4633001C5500 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B54C346E12EB4633001C5500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B54C347112EB4633001C5500 /* CarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarSample-Prefix.pch"; sourceTree = "<group>"; };
+		B54C347212EB4633001C5500 /* CarSample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CarSample.1; sourceTree = "<group>"; };
+		B5CBD80512EB474700EE938F /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		B5CBD80612EB474700EE938F /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B5CBD82812EB49F900EE938F /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		B5CBD82912EB4A2300EE938F /* ViperEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViperEngine.h; sourceTree = "<group>"; };
+		B5CBD82A12EB4A2300EE938F /* ViperEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViperEngine.m; sourceTree = "<group>"; };
+		B5CBD83312EB4AA600EE938F /* LawnmowerEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LawnmowerEngine.h; sourceTree = "<group>"; };
+		B5CBD83412EB4AA600EE938F /* LawnmowerEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LawnmowerEngine.m; sourceTree = "<group>"; };
+		B5CBD87012EB4ED600EE938F /* EngineFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineFactory.h; sourceTree = "<group>"; };
+		B5CBD87112EB4ED600EE938F /* EngineFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngineFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54C346412EB4633001C5500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C346C12EB4633001C5500 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B54C345C12EB4633001C5500 = {
+			isa = PBXGroup;
+			children = (
+				B54C346D12EB4633001C5500 /* CarSample */,
+				B54C346A12EB4633001C5500 /* Frameworks */,
+				B54C346812EB4633001C5500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B54C346812EB4633001C5500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54C346712EB4633001C5500 /* CarSample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54C346A12EB4633001C5500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B54C346B12EB4633001C5500 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B54C346D12EB4633001C5500 /* CarSample */ = {
+			isa = PBXGroup;
+			children = (
+				B54C346E12EB4633001C5500 /* main.m */,
+				B54C347212EB4633001C5500 /* CarSample.1 */,
+				B54C347012EB4633001C5500 /* Supporting Files */,
+				B5CBD80512EB474700EE938F /* Car.h */,
+				B5CBD80612EB474700EE938F /* Car.m */,
+				B5CBD82812EB49F900EE938F /* Engine.h */,
+				B5CBD82912EB4A2300EE938F /* ViperEngine.h */,
+				B5CBD82A12EB4A2300EE938F /* ViperEngine.m */,
+				B5CBD83312EB4AA600EE938F /* LawnmowerEngine.h */,
+				B5CBD83412EB4AA600EE938F /* LawnmowerEngine.m */,
+				B5CBD87012EB4ED600EE938F /* EngineFactory.h */,
+				B5CBD87112EB4ED600EE938F /* EngineFactory.m */,
+			);
+			path = CarSample;
+			sourceTree = "<group>";
+		};
+		B54C347012EB4633001C5500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B54C347112EB4633001C5500 /* CarSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54C346612EB4633001C5500 /* CarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C347512EB4633001C5500 /* Build configuration list for PBXNativeTarget "CarSample" */;
+			buildPhases = (
+				B54C346312EB4633001C5500 /* Sources */,
+				B54C346412EB4633001C5500 /* Frameworks */,
+				B54C346512EB4633001C5500 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSample;
+			productName = CarSample;
+			productReference = B54C346712EB4633001C5500 /* CarSample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54C345E12EB4633001C5500 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B54C346112EB4633001C5500 /* Build configuration list for PBXProject "CarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B54C345C12EB4633001C5500;
+			productRefGroup = B54C346812EB4633001C5500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54C346612EB4633001C5500 /* CarSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54C346312EB4633001C5500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C346F12EB4633001C5500 /* main.m in Sources */,
+				B5CBD80712EB474700EE938F /* Car.m in Sources */,
+				B5CBD82B12EB4A2300EE938F /* ViperEngine.m in Sources */,
+				B5CBD83512EB4AA600EE938F /* LawnmowerEngine.m in Sources */,
+				B5CBD87212EB4ED600EE938F /* EngineFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B54C347312EB4633001C5500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B54C347412EB4633001C5500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B54C347612EB4633001C5500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarSample/CarSample-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B54C347712EB4633001C5500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarSample/CarSample-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54C346112EB4633001C5500 /* Build configuration list for PBXProject "CarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C347312EB4633001C5500 /* Debug */,
+				B54C347412EB4633001C5500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C347512EB4633001C5500 /* Build configuration list for PBXNativeTarget "CarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C347612EB4633001C5500 /* Debug */,
+				B54C347712EB4633001C5500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B54C345E12EB4633001C5500 /* Project object */;
+}
